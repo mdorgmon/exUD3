@@ -1,6 +1,5 @@
 import jugador
 import game
-
 #Antonio esto sería la estructura pero no tengo ni idea de como hacer que sean funciones 
 #equivalentes al static de Java.
 class Test:

@@ -41,15 +41,4 @@ class Player:
 
     return charge, newEnergy
 
-player1 = Player(1,"name")
-
-print(player1.boost(20))
-
-print(player1.boost(60))
-
-print(player1.boost(-20))
-
-print(player1.boost("hola"))
-
-print(player1.getEnergy())
 
