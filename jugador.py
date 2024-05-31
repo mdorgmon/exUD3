@@ -53,14 +53,3 @@ print(player1.boost("hola"))
 
 print(player1.getEnergy())
 
-
-class Test:
-
-  def test1:
-    testPlayer = Player(0, "x")
-    if (testPlayer.getEnergy() != 50):
-      print(f"Error, el valor inicial de energia es {testPlayer.getEnergy()} y debería ser 50")
-    else: print("Valor correcto de Energy.")
-
-  def test2:
-    

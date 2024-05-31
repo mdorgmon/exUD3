@@ -25,7 +25,7 @@ class Game:
 
   def play(self):
     for round_num in range(1, self.rounds + 1):
-      print(f"Ronda {round_num}: {self.playRound()}")
+      print(f"Round {round_num}: {self.playRound()}")
 
     winner = self.winner()
     print(f"\n¡Ganador! Jugador: {winner.getNickName()} - Energía: {winner.getEnergy()}")
