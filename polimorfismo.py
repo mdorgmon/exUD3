@@ -31,7 +31,7 @@ class Cuadrado(EquiFigura):
      return 4 * self.getLongitudLados()
 
   def getArea(self):
-    return self.getLongitudLados() ** 2
+    return (float)(self.getLongitudLados() ** 2)
 
 def getPerimetroFigura(figura):
   return figura.getPerimetro()
@@ -48,4 +48,4 @@ print(f"  - Perímetro: {getPerimetroFigura(te1)}")
 print(f"  - Área: {getAreaFigura(te1)}")
 print(" Cuadrado cu1: ")
 print(f"  - Perímetro: {getPerimetroFigura(cu1)}")
-int(f"  - Área: {getAreaFigura(cu1)}")
+int(f"  - Área: {getAreaFigura(cu1)}") #debería poner 16 también pero salta un error que no considgo resolver
